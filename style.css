@@ -1,0 +1,99 @@
+/* Estilos para o reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa; /* Fundo cinza claro */
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para o header */
+header {
+    text-align: center;
+    background-color: #007bff; /* Fundo azul */
+    color: #fff; /* Texto branco */
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header h1 {
+    font-size: 36px; /* Tamanho grande para o título */
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #007bff; /* Borda azul */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #ffffff; /* Fundo branco */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #007bff; /* Cor azul */
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    background-color: #007bff; /* Fundo azul ao passar o mouse */
+    color: #fff; /* Texto branco ao passar o mouse */
+    border-color: #007bff; /* Borda azul ao passar o mouse */
+}
+
+/* Estilos para o conteúdo dinâmico */
+#titulo-secao {
+    margin-top: 40px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section {
+    margin-top: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.section h2 {
+    font-size: 28px; /* Tamanho grande para os títulos das seções */
+    margin-bottom: 10px;
+    color: #007bff; /* Cor azul */
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Texto branco */
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
